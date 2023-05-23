@@ -1,1 +1,99 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    position: relative;
+}
+.logo
+{
+    width: 20%;
+    height: auto;
+}
+h1
+{
+    font-family: 'Anton', sans-serif;
+}
+/* home */  
+.col-6 h3
+{
+    font-size: 3em;
+}
+.col-6 h6
+{
+    font-size: 1.5em;
+}
+.col-6 
+{
+    margin-top: 1   00px;
+}
 
+ .main .container h3
+{
+    font-size: 5vw;
+}
+
+.EMJ
+{
+    font-size: 3vw;
+}
+/* about US */
+.About_us img
+{
+    max-width: 100%;
+    height: 50vh;
+}
+.About_us .rounded-circle
+{
+    border: 3px solid black;
+}
+section h1
+{
+    font-size: 6rem;
+}
+.About_us .col-lg-4
+{
+    border: 1px solid red;
+    border-radius: 30px;
+}
+
+/* contact us */
+.earlpic
+{
+    width: 100%;
+    height: 70vh;
+}
+
+/* act */
+.actbutton
+{
+    font-weight: bolder;
+    font-style: none;
+    text-decoration-line: none;
+    color: white;
+    
+}
+.buttonhover:hover
+{
+    background-color: white;
+    color: rgb(116, 5, 5);
+    transition: all 0.5s;
+    border-radius: 200px;
+    scale: 1.2;
+    cursor:auto;
+}
+.button2
+{
+    border-radius: 200px;
+}
+.button2:hover
+{
+    border-radius: 200px;
+    transition: all 1s;
+}
