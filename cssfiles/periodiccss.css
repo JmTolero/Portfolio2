@@ -1,0 +1,224 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    margin:0;
+    padding:0;
+    background-image: url(../images/background.jpg  );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+    text-transform: capitalize;
+}
+.key
+{
+    max-width: 200px;
+    max-height: 200px;
+    padding-left: 400px;
+    position: absolute;
+    padding-top: 80px;
+}
+
+table   
+{
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+    padding: 10px;
+}
+ table,tr, td
+{
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    font-family: Times New Roman;
+    border-radius:10px;
+}
+tr
+{  
+    height: 50px;
+    position: relative;
+}
+tr,td
+{
+    color: rgb(255, 255, 255);
+    width: 200px;
+}
+td
+{
+    height: 80px;
+    font-size: 10px;
+}
+td:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.t1
+{
+    border: none;
+}
+table 
+{
+    border: none;
+}
+.c1
+{
+    border-color:  rgb(86, 179, 179);
+    background-image: linear-gradient(to bottom right,rgb(86, 179, 179),rgb(82, 74, 74),black);
+}
+.yellow
+{
+    border-color: rgb(221, 221, 61);
+    background-image: linear-gradient(to bottom right,rgb(221, 221, 61),rgb(82, 74, 74),black);
+}
+.orange
+{
+    border-color: orange;
+    background-image: linear-gradient(to bottom right,orange,rgb(82, 74, 74),black);
+}
+.blue
+{
+    background-image: linear-gradient(to bottom right,blue,rgb(82, 74, 74),black);
+    border-color: blue;
+}
+.violet
+{
+    background-image: linear-gradient(to bottom right,blueviolet,rgb(82, 74, 74),black);
+    border-color: blueviolet;
+}
+.lightblue
+{
+    background-image: linear-gradient(to bottom right, aquamarine,rgb(82, 74, 74),black);
+    border-color: aquamarine;
+}
+.pink
+{
+    background-image: linear-gradient(to bottom right,rgb(230, 45, 143),rgb(82, 74, 74),black);
+    border-color: rgb(230, 45, 143);
+}
+.gray
+{
+    background-image: linear-gradient(to bottom right,rgb(172, 170, 170),rgb(82, 74, 74),rgb(202, 197, 197));
+    border-color: rgb(172, 170, 170);
+}
+.black
+{
+    background-image: linear-gradient(to bottom right,rgb(75, 54, 51),rgb(82, 74, 74),black);
+    border-color: rgb(54, 52, 52);
+}
+.red
+{
+    background-image: linear-gradient(to bottom right,red,rgb(82, 74, 74),black);
+    border-color: red;
+}
+.green
+{
+    background-image: linear-gradient(to bottom right,rgb(13, 255, 13),rgb(82, 74, 74),black);
+    border-color: rgb(13, 255, 13);
+}
+/* to resize the letter */
+.bold1  
+{
+    font-size: 20px;
+}
+/* navbar */
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(0,0,0,0.8);
+    width: 100%;
+    position:relative;
+}
+.navbar2
+{
+    display: flex;
+    padding: 20px;
+    text-align: right;
+    justify-content: center;
+    position: relative;
+    padding-right: 100px;
+}
+.home
+{
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+    position: relative;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+}
+.home:hover
+{
+    background-color: rgb(90, 25, 25);
+    color: white;
+    transition: .5s ease;
+    border-radius: 10px;
+    font-size: 40px;
+}
+.Surv
+{
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    text-decoration: none;
+
+}
+.Surv:hover
+{
+    background-color: rgb(90, 25, 25);
+    transition: .5s ease;
+    border-radius: 10px;
+    color: white;
+    font-size: 40px;
+}
+.title1
+{
+    background-color:rgba(255, 250, 250, 0.844);
+    margin-top: 5%;
+    position: relative;
+    margin-left:30%;
+    margin-right: 30%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.title
+{
+    text-align: center;
+    font-size: 3em;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    background: linear-gradient(45deg,yellow,orange,red,blue,pink,white);
+    position: relative;
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    animation: animate 20s linear infinite;
+    -webkit-animation: animate 20s linear infinite;
+}
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+
+
+
+
+
+
