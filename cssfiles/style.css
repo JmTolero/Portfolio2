@@ -11,6 +11,13 @@ body
     background-color: gray;
     position: relative;
 }
+.homebg
+{
+    background-image: url(../images/bghomep.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .logo
 {
     width: 20%;
@@ -64,6 +71,13 @@ section h1
 }
 
 /* contact us */
+.cont
+{
+    background-image: url(../images/contbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover  ;
+}
 .earlpic
 {
     width: 100%;
@@ -96,4 +110,11 @@ section h1
 {
     border-radius: 200px;
     transition: all 1s;
+}
+.actbg
+{
+    background-image: url(../images/actbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
