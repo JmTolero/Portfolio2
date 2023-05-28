@@ -1,21 +1,20 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body
-{
+
+body {
     background-image: url(../images/surveybg.png);
     background-size: cover;
     height: 100vh;
 }
-.container
-{
+
+.container {
     background-color: aqua;
 }
-.backbtn
-{
+
+.backbtn {
+    color: black;
     text-decoration-line: none;
-    color:black;
 }
