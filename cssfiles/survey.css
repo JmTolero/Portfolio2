@@ -4,8 +4,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-.coontainer
+body
+{
+    background-image: url(../images/surveybg.png);
+    background-size: cover;
+    height: 100vh;
+}
+.container
 {
     background-color: aqua;
 }
-
+.backbtn
+{
+    text-decoration-line: none;
+    color:black;
+}
